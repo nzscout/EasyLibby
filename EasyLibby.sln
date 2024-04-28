@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34707.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyLibby.Api", "EasyLibby.Api\EasyLibby.Api.csproj", "{DFDCA5DB-6846-43AA-AC43-A6202EB50824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyLibby.Tests", "EasyLibby.Tests\EasyLibby.Tests.csproj", "{4D5B02C4-3719-498E-AB81-9CA79F86208E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFDCA5DB-6846-43AA-AC43-A6202EB50824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFDCA5DB-6846-43AA-AC43-A6202EB50824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFDCA5DB-6846-43AA-AC43-A6202EB50824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFDCA5DB-6846-43AA-AC43-A6202EB50824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5B02C4-3719-498E-AB81-9CA79F86208E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5B02C4-3719-498E-AB81-9CA79F86208E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5B02C4-3719-498E-AB81-9CA79F86208E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5B02C4-3719-498E-AB81-9CA79F86208E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C00BEB33-D92B-41FC-9191-995F10CAF364}
+	EndGlobalSection
+EndGlobal

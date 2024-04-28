@@ -1,0 +1,6 @@
+@EasyLibby.Api_HostAddress = http://localhost:5038
+
+GET {{EasyLibby.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

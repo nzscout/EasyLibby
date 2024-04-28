@@ -1,0 +1,7 @@
+﻿DROP TABLE IF EXISTS dbo.Loans
+DROP TABLE IF EXISTS dbo.Books
+DROP TABLE IF EXISTS dbo.Authors
+DROP TABLE IF EXISTS dbo.Members
+DROP TABLE IF EXISTS dbo.Librarians
+
+DROP TABLE IF EXISTS dbo.__EFMigrationsHistory
