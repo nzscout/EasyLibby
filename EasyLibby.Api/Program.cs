@@ -8,8 +8,7 @@ using SerilogTracing.Expressions;
 var builder = WebApplication.CreateBuilder(args);
 
 Log.Logger = new LoggerConfiguration()
-    .WriteTo.Console()
-    .WriteTo.Console(Formatters.CreateConsoleTextFormatter(theme: TemplateTheme.Code))
+    .WriteTo.Console(Formatters.CreateConsoleTextFormatter(theme: TemplateTheme.Literate))
     .ReadFrom.Configuration(builder.Configuration)
     .CreateLogger();
 
