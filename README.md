@@ -16,7 +16,7 @@ For the local SQL Server, update ***DefaultConnection*** in **<u>appsettings.jso
 
 Database migrations and data seeding are applied at project startup.
 
-#### Optional: Running Seq Server in Docker
+#### Optional:Running Seq Server in Docker
 
 ```powershell
 docker run --name seq -d --restart=unless-stopped -e ACCEPT_EULA=Y -v seq:/data -p 81:80 -p 5345:5341 datalust/seq:latest
