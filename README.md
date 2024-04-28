@@ -16,7 +16,7 @@ For the local SQL Server, update ***DefaultConnection*** in **<u>appsettings.jso
 
 Database migrations and data seeding are applied at project startup.
 
-#### Optional:Running Seq Server in Docker
+#### Optional: Running Seq Server in Docker
 
 ```powershell
 docker run --name seq -d --restart=unless-stopped -e ACCEPT_EULA=Y -v seq:/data -p 81:80 -p 5345:5341 datalust/seq:latest
@@ -36,7 +36,7 @@ Access the Seq web interface: <http://localhost:81/>
   Currently, most settings are stored in `appsettings.json`. For production environments, they will be moved to the database.
   
 4. **Using Auto Mappers**:
-  The Mapperly library is utilized for mapping entity objects to DTOs. Generally, auto mappers like AutoMapper are discouraged due to reflection overheads and performance penalties. However, Mapperly is distinct as it is a source generator that operates without reflection at runtime, minimising its impact on performance.
+  The (Mapperly library)[https://github.com/riok/mapperly] is utilized for mapping entity objects to DTOs. Generally, auto mappers like AutoMapper are discouraged due to reflection overheads and performance penalties. However, Mapperly is distinct as it is a source generator that operates without reflection at runtime, minimising its impact on performance.
   
 5. **Security**:
   The API currently lacks protection measures. For production, a robust mechanism for user identification and resource authorisation should be implemented based on JWT-Based Authentication. Compatible OpenID providers include Auth0, Azure AD, or IdentityServer. Also, user registration and management should be added.
